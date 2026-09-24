@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appliance Repair Services | SparkDen Service</title>
+  <meta name="description" content="Professional home appliance repair services from SparkDen Service.">
+  <link rel="icon" type="image/png" href="https://i.ibb.co/cXbNxxY8/logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/service-detail.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+      <span>
+        <span class="title-one">SparkDen</span>
+        <span class="title-two">Service</span>
+      </span>
+    </a>
+    <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+    <label for="mobile-menu-toggle" class="mobile-menu-button"
+      aria-label="Open navigation menu"><span></span><span></span><span></span></label>
+    <nav class="navbar">
+      <div class="nav-home">
+        <input type="checkbox" id="home-menu-toggle" class="home-menu-toggle" aria-label="Toggle Home pages menu">
+        <label for="home-menu-toggle" class="nav-home-toggle">Home</label>
+        <div class="home-dropdown" role="menu" aria-label="Home pages">
+          <a href="home1.html" role="menuitem">Home 1</a>
+          <a href="home2.html" role="menuitem">Home 2</a>
+        </div>
+      </div>
+      <a href="about.html">About Us</a>
+      <div class="nav-services">
+        <input type="checkbox" id="services-toggle" class="services-toggle" aria-hidden="true">
+        <label for="services-toggle" class="services-toggle-label">Services</label>
+        <div class="services-dropdown" role="menu" aria-label="Services">
+          <a href="services.html" role="menuitem">Services</a>
+          <a href="Fan Repair.html" role="menuitem">Fan Repair</a>
+          <a href="Refrigerator Repair.html" role="menuitem">Refrigerator Repair</a>
+          <a href="Geyser Repair.html" role="menuitem">Geyser Repair</a>
+          <a href="Iron Repair.html" role="menuitem">Iron Repair</a>
+          <a href="appliance-services.html" role="menuitem">Other Services</a>
+        </div>
+      </div>
+      <a href="blog.html">Blogs</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html" class="device-auth-menu">Login</a>
+      <a href="register.html" class="device-auth-menu">Register</a>
+    </nav>
+    <div class="header-right">
+      <button class="mode" id="theme-toggle" aria-label="Toggle dark mode"><svg id="moon-icon"
+          xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="currentColor"
+          aria-hidden="true" class="bi bi-moon-fill">
+          <path
+            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+        </svg>
+        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"
+          fill="currentColor" aria-hidden="true" class="bi bi-brightness-high-fill icon-hidden">
+          <path
+            d="M12 8a4 4 0 1 1-8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 16 8M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 1 1-.707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 .707 0" />
+        </svg></button>
+      <button class="ltr">LTR</button>
+      <a href="login.html" class="login-btn">LOGIN</a>
+    </div>
+  </header>
+  <main class="appliance-page">
+    <!-- HERO -->
+    <section class="services-hero">
+      <div class="services-hero-inner">
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="https://i.ibb.co/7J4MS1GK/Chat-GPT-Image-Sep-15-2026-07-40-22-PM.png"
+              alt="Home appliance repair service">
+            <div class="image-caption">
+              <span>SPARKDEN SERVICE</span>
+              <strong>Home Appliance Care</strong>
+            </div>
+          </div>
+          <div class="floating-card">
+            <span class="floating-label">SERVICE SUPPORT</span>
+            <strong>At Your Doorstep</strong>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <span class="eyebrow">HOME APPLIANCE REPAIR</span>
+          <h1>Reliable Repairs for<br><span>Everyday Appliances</span></h1>
+          <p>
+            Professional doorstep support for the appliances you depend on every day.
+            From electrical faults to performance problems, get practical repair service
+            with clear communication and dependable support.
+          </p>
+          <div class="hero-actions">
+            <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+            <a href="#appliance-services" class="btn btn-outline">VIEW SERVICES</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- STATS STRIP -->
+    <section class="stats-strip">
+      <div class="stats-strip-inner">
+        <div class="stat-block">
+          <strong>07+</strong>
+          <span>Appliance Services</span>
+        </div>
+        <div class="stat-block">
+          <strong>90</strong>
+          <span>Day Service Warranty</span>
+        </div>
+        <div class="stat-block">
+          <strong>24/7</strong>
+          <span>Online Booking</span>
+        </div>
+      </div>
+    </section>
+    <!-- STATEMENT -->
+    <section class="statement-section">
+      <div class="statement-inner">
+        <span class="section-label">OUR SERVICES</span>
+        <h2>Appliance support designed around your home</h2>
+        <p class="lead">
+          We provide repair and maintenance support for common electrical home
+          appliances. Pick an appliance below to see the type of service and the
+          problems it usually covers.
+        </p>
+        <a href="contact.html" class="text-link">Talk to our service team <span>→</span></a>
+      </div>
+    </section>
+    <!-- SERVICES SHOWCASE (tabbed: appliance list + combined detail panel) -->
+    <section class="showcase-section" id="appliance-services">
+      <div class="content-wrap">
+        <div class="section-heading">
+          <span class="section-label">WHAT WE REPAIR</span>
+          <h2>Home Appliance Repair Services</h2>
+          <p>Select an appliance to see common problems we fix at your doorstep.</p>
+        </div>
+        <div class="showcase-layout">
+          <input type="radio" name="appliance-tab" id="tab-washing-machine" class="showcase-radio" checked>
+          <input type="radio" name="appliance-tab" id="tab-water-purifier" class="showcase-radio">
+          <input type="radio" name="appliance-tab" id="tab-television" class="showcase-radio">
+          <input type="radio" name="appliance-tab" id="tab-air-cooler" class="showcase-radio">
+          <input type="radio" name="appliance-tab" id="tab-air-conditioner" class="showcase-radio">
+          <input type="radio" name="appliance-tab" id="tab-vacuum-cleaner" class="showcase-radio">
+          <input type="radio" name="appliance-tab" id="tab-mixer-grinder" class="showcase-radio">
+          <div class="showcase-tabs" role="tablist" aria-label="Appliance services">
+            <label for="tab-washing-machine" class="showcase-tab-label"><span class="tab-index">01</span><span
+                class="tab-name">Washing Machine</span></label>
+            <label for="tab-water-purifier" class="showcase-tab-label"><span class="tab-index">02</span><span
+                class="tab-name">Water Purifier</span></label>
+            <label for="tab-television" class="showcase-tab-label"><span class="tab-index">03</span><span
+                class="tab-name">Television</span></label>
+            <label for="tab-air-cooler" class="showcase-tab-label"><span class="tab-index">04</span><span
+                class="tab-name">Air Cooler</span></label>
+            <label for="tab-air-conditioner" class="showcase-tab-label"><span class="tab-index">05</span><span
+                class="tab-name">Air Conditioner</span></label>
+            <label for="tab-vacuum-cleaner" class="showcase-tab-label"><span class="tab-index">06</span><span
+                class="tab-name">Vacuum Cleaner</span></label>
+            <label for="tab-mixer-grinder" class="showcase-tab-label"><span class="tab-index">07</span><span
+                class="tab-name">Mixer Grinder</span></label>
+          </div>
+          <div class="showcase-panels">
+            <article class="showcase-panel" id="panel-washing-machine">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/M57SzxDj/Chat-GPT-Image-Sep-15-2026-07-25-41-PM.png"
+                    alt="Washing machine repair"></div>
+                <div class="panel-body">
+                  <small>LAUNDRY APPLIANCE</small>
+                  <h3>Washing Machine</h3>
+                  <p><strong class="price-highlight">Starting from ₹399</strong></p>
+                  <p>Not spinning, water not draining, leakage, unusual vibration, motor faults, door lock issues and
+                    power problems &mdash; diagnosed and repaired at your home.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-water-purifier">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/5gXCk8Ns/Chat-GPT-Image-Sep-15-2026-07-24-14-PM.png"
+                    alt="Water purifier repair"></div>
+                <div class="panel-body">
+                  <small>WATER APPLIANCE</small>
+                  <h3>Water Purifier</h3>
+                  <p><strong class="price-highlight">Starting from ₹299</strong></p>
+                  <p>Low water flow, filter or membrane replacement, pump faults, leakage and electrical issues,
+                    resolved with genuine parts where needed.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-television">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/nqyd2VCJ/Chat-GPT-Image-Sep-15-2026-07-38-19-PM.png"
+                    alt="Television repair"></div>
+                <div class="panel-body">
+                  <small>ENTERTAINMENT</small>
+                  <h3>Television</h3>
+                  <p><strong class="price-highlight">Starting from ₹399</strong></p>
+                  <p>No display, no sound, screen lines, flickering, Smart TV software problems and power supply faults,
+                    checked and fixed on site.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-air-cooler">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/1fcRyC80/Chat-GPT-Image-Sep-15-2026-07-28-34-PM.png"
+                    alt="Air cooler repair"></div>
+                <div class="panel-body">
+                  <small>COOLING APPLIANCE</small>
+                  <h3>Air Cooler</h3>
+                  <p><strong class="price-highlight">Starting from ₹299</strong></p>
+                  <p>Motor failure, weak airflow, pump faults, damaged cooling pads, water leakage and wiring problems,
+                    restored to normal cooling.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-air-conditioner">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/rL3GVss/Chat-GPT-Image-Sep-15-2026-07-34-14-PM.png"
+                    alt="Air conditioner repair"></div>
+                <div class="panel-body">
+                  <small>COOLING APPLIANCE</small>
+                  <h3>Air Conditioner</h3>
+                  <p><strong class="price-highlight">Starting from ₹499</strong></p>
+                  <p>Weak cooling, drainage issues, routine servicing, installation support and common electrical
+                    performance problems, handled by trained technicians.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-vacuum-cleaner">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/dJbJ21TW/Chat-GPT-Image-Sep-15-2026-07-29-51-PM.png"
+                    alt="Vacuum cleaner repair"></div>
+                <div class="panel-body">
+                  <small>CLEANING APPLIANCE</small>
+                  <h3>Vacuum Cleaner</h3>
+                  <p><strong class="price-highlight">Starting from ₹299</strong></p>
+                  <p>Low suction, motor faults, overheating, switch issues, cable damage and brush problems, sorted so
+                    cleaning stays effortless.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-panel" id="panel-mixer-grinder">
+              <div class="panel-grid">
+                <div class="panel-media"><img src="https://i.ibb.co/sd1tqGd8/Chat-GPT-Image-Sep-15-2026-07-31-05-PM.png"
+                    alt="Mixer grinder repair"></div>
+                <div class="panel-body">
+                  <small>KITCHEN APPLIANCE</small>
+                  <h3>Mixer Grinder</h3>
+                  <p><strong class="price-highlight">Starting from ₹199</strong></p>
+                  <p>Motor not starting, unusual noise, jar or blade problems, speed control, switch and wiring faults,
+                    fixed quickly for daily kitchen use.</p>
+                  <a href="booking.html" class="btn btn-primary">BOOK A REPAIR</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROCESS TIMELINE -->
+    <section class="process-section">
+      <div class="content-wrap">
+        <div class="section-heading">
+          <span class="section-label">HOW IT WORKS</span>
+          <h2>A Simple Repair Process</h2>
+          <p>Four straightforward steps from booking to completed service.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-step">
+            <span class="step-num">01</span>
+            <h3>Book</h3>
+            <p>Choose your appliance and request a service.</p>
+          </div>
+          <div class="timeline-step">
+            <span class="step-num">02</span>
+            <h3>Inspect</h3>
+            <p>A technician checks the appliance and identifies the fault.</p>
+          </div>
+          <div class="timeline-step">
+            <span class="step-num">03</span>
+            <h3>Approve</h3>
+            <p>Understand the required repair before work begins.</p>
+          </div>
+          <div class="timeline-step">
+            <span class="step-num">04</span>
+            <h3>Repair</h3>
+            <p>Get the appliance repaired and tested for service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS (new) -->
+    <section class="testimonials-section">
+      <div class="content-wrap">
+        <div class="section-heading">
+          <span class="section-label">CUSTOMER REVIEWS</span>
+          <h2>What Customers Say About Our Service</h2>
+          <p>Recent feedback from appliance repair visits across the city.</p>
+        </div>
+        <div class="testimonial-slider">
+          <div class="testimonial-track">
+            <article class="testimonial-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Technician arrived on time & explained the washing machine issue clearly
+                before starting the repair.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">R</span>
+                <div>
+                  <div class="testimonial-name">Ramesh K.</div>
+                  <div class="testimonial-role">Washing Machine Repair &middot; Jubilee Hills</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Quick diagnosis on the AC and the pricing was explained, no surprises after
+                the work was done.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">S</span>
+                <div>
+                  <div class="testimonial-name">Sunitha Reddy</div>
+                  <div class="testimonial-role">Air Conditioner Service &middot; Kondapur</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Booked the same day for a water purifier problem and it has been working fine
+                since the visit.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">A</span>
+                <div>
+                  <div class="testimonial-name">Arjun Rao</div>
+                  <div class="testimonial-role">Water Purifier Repair &middot; Gachibowli</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">The television issue was checked, and the technician explained the required
+                repair work.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">P</span>
+                <div>
+                  <div class="testimonial-name">Priya M.</div>
+                  <div class="testimonial-role">Television Repair &middot; Banjara Hills</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Mixer grinder repair was completed smoothly and the appliance is working
+                properly again.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">K</span>
+                <div>
+                  <div class="testimonial-name">Kiran S.</div>
+                  <div class="testimonial-role">Mixer Grinder Repair &middot; Madhapur</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" aria-hidden="true">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Technician arrived on time & explained the washing machine issue clearly
+                before starting the repair.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">R</span>
+                <div>
+                  <div class="testimonial-name">Ramesh K.</div>
+                  <div class="testimonial-role">Washing Machine Repair &middot; Jubilee Hills</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" aria-hidden="true">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Quick diagnosis on the AC and the pricing was explained, no surprises after
+                the work was done.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">S</span>
+                <div>
+                  <div class="testimonial-name">Sunitha Reddy</div>
+                  <div class="testimonial-role">Air Conditioner Service &middot; Kondapur</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" aria-hidden="true">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Booked the same day for a water purifier problem and it has been working fine
+                since the visit.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">A</span>
+                <div>
+                  <div class="testimonial-name">Arjun Rao</div>
+                  <div class="testimonial-role">Water Purifier Repair &middot; Gachibowli</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" aria-hidden="true">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">The television issue was checked & technician explained the repair the work.
+              </p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">P</span>
+                <div>
+                  <div class="testimonial-name">Priya M.</div>
+                  <div class="testimonial-role">Television Repair &middot; Banjara Hills</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" aria-hidden="true">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">Mixer grinder repair was completed smoothly and the appliance is working
+                properly again.</p>
+              <div class="testimonial-person">
+                <span class="testimonial-avatar">K</span>
+                <div>
+                  <div class="testimonial-name">Kiran S.</div>
+                  <div class="testimonial-role">Mixer Grinder Repair &middot; Madhapur</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ -->
+    <section class="faq-section">
+      <div class="content-wrap faq-layout">
+        <div class="section-title-block">
+          <span class="section-label">FAQ</span>
+          <h2>Questions about appliance repair?</h2>
+          <p>Here are a few common questions customers ask before booking.</p>
+          <a href="contact.html" class="btn btn-primary">CONTACT US</a>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Do you provide doorstep appliance repair?</summary>
+            <p>Yes. Service requests can be handled at your home where the appliance and repair requirement allow
+              doorstep service.</p>
+          </details>
+          <details>
+            <summary>Which appliances can I book for repair?</summary>
+            <p>Our current appliance service list includes washing machines, water purifiers, televisions, air coolers,
+              air conditioners, vacuum cleaners and mixer grinders.</p>
+          </details>
+          <details>
+            <summary>Will the repair cost be explained before work?</summary>
+            <p>The repair requirement and applicable charges should be explained before repair work proceeds.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- CTA -->
+    <section class="service-cta">
+      <div class="cta-image-layer"></div>
+      <div class="cta-inner">
+        <span class="cta-kicker">NEED APPLIANCE SUPPORT?</span>
+        <h2>Let Us Help You Get Things Working Again</h2>
+        <p>Tell us about your appliance problem and take the first step toward getting the right service.</p>
+        <a href="booking.html" class="btn cta-button">BOOK A REPAIR</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column footer-brand">
+        <a href="index.html" class="logo footer-logo-link">
+          <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+          <span>
+            <span class="title-one">SparkDen</span>
+            <span class="title-two">Service</span>
+          </span>
+        </a>
+        <p>
+          Fast and reliable electrical appliance repair
+          services for your everyday home needs.
+        </p>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Instagram" title="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook" title="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter X" title="Twitter X">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" title="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="home1.html">Home</a>
+        <a href="about.html">about</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">blogs</a>
+        <a href="contact.html">contact us</a>
+      </div>
+      <div class="footer-column">
+        <h3>Our Services</h3>
+        <a href="Fan%20Repair.html">Fan Repair</a>
+        <a href="Refrigerator%20Repair.html">Refrigerator Repair</a>
+        <a href="Iron%20Repair.html">Iron Repair</a>
+        <a href="Geyser%20Repair.html">Geyser Repair</a>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>
+          +91 98765 43210
+        </p>
+        <p>
+          sparkden@example.com
+        </p>
+        <p>
+          Hyderabad, Telangana, India
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        &copy; 2026 SparkDen Service . All Rights Reserved.
+      </p>
+      <p>
+        SparkDen Service Appliance
+      </p>
+    </div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    /* SPARKDEN HOME DROPDOWN CLICK */
+    document.addEventListener("DOMContentLoaded", function () {
+      const home = document.querySelector(".nav-home");
+      const toggle = document.querySelector(".nav-home-toggle");
+      const checkbox = document.getElementById("home-menu-toggle");
+      if (!home || !toggle || !checkbox) return;
+      function syncExpanded() {
+        toggle.setAttribute("aria-expanded", String(checkbox.checked));
+      }
+      checkbox.addEventListener("change", syncExpanded);
+      syncExpanded();
+      document.addEventListener("click", function (event) {
+        if (!home.contains(event.target)) {
+          checkbox.checked = false;
+          syncExpanded();
+        }
+      });
+      home.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          checkbox.checked = false;
+          syncExpanded();
+          toggle.focus();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

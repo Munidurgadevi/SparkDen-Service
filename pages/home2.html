@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home 2 | SparkDen Service</title>
+  <link rel="icon" type="image/png" href="https://i.ibb.co/cXbNxxY8/logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/home1.css">
+  <link rel="stylesheet" href="../assets/css/home2.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+      <span>
+        <span class="title-one">SparkDen</span>
+        <span class="title-two">Service</span>
+      </span>
+    </a>
+    <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+    <label for="mobile-menu-toggle" class="mobile-menu-button"
+      aria-label="Open navigation menu"><span></span><span></span><span></span></label>
+    <nav class="navbar">
+      <div class="nav-home">
+        <input type="checkbox" id="home-menu-toggle" class="home-menu-toggle" aria-label="Toggle Home pages menu">
+        <label for="home-menu-toggle" class="nav-home-toggle">Home</label>
+        <div class="home-dropdown" role="menu" aria-label="Home pages">
+          <a href="home1.html" role="menuitem">Home 1</a>
+          <a href="home2.html" role="menuitem">Home 2</a>
+        </div>
+      </div>
+      <a href="about.html">About Us</a>
+      <div class="nav-services">
+        <input type="checkbox" id="services-toggle" class="services-toggle" aria-hidden="true">
+        <label for="services-toggle" class="services-toggle-label">Services</label>
+        <div class="services-dropdown" role="menu" aria-label="Services">
+          <a href="services.html" role="menuitem">Services</a>
+          <a href="Fan Repair.html" role="menuitem">Fan Repair</a>
+          <a href="Refrigerator Repair.html" role="menuitem">Refrigerator Repair</a>
+          <a href="Geyser Repair.html" role="menuitem">Geyser Repair</a>
+          <a href="Iron Repair.html" role="menuitem">Iron Repair</a>
+          <a href="appliance-services.html" role="menuitem">Other Services</a>
+        </div>
+      </div>
+      <a href="blog.html">Blogs</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html" class="device-auth-menu">Login</a>
+      <a href="register.html" class="device-auth-menu">Register</a>
+    </nav>
+    <div class="header-right">
+      <button class="mode" id="theme-toggle" aria-label="Toggle dark mode"><svg id="moon-icon"
+          xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="currentColor"
+          aria-hidden="true" class="bi bi-moon-fill">
+          <path
+            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+        </svg>
+        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"
+          fill="currentColor" aria-hidden="true" class="bi bi-brightness-high-fill icon-hidden">
+          <path
+            d="M12 8a4 4 0 1 1-8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 16 8M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 1 1-.707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 .707 0" />
+        </svg></button>
+      <button class="ltr">LTR</button>
+      <a href="login.html" class="login-btn">LOGIN</a>
+    </div>
+  </header>
+  <main>
+    <!-- HOME 1 HERO-->
+    <section class="home1-hero" aria-label="SparkDen appliance repair">
+      <div class="hero-slide active">
+        <div class="hero-slide-bg hero-bg-1"></div>
+        <div class="home1-hero-overlay"></div>
+        <div class="home1-hero-content">
+          <p class="home1-kicker">
+            <span class="home1-kicker-dot"></span>
+            APPLIANCE CARE INDIA
+          </p>
+          <h1>
+            Best Appliance Repair
+            <br>
+            <span>
+              Services
+            </span>
+          </h1>
+          <p class="home1-description">
+            Fast and reliable repair services for your everyday
+            home appliances. Get trusted service from skilled
+            professionals whenever you need it.
+          </p>
+          <div class="home1-actions">
+            <a href="tel:+919876543210" class="hero-btn hero-btn-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+              </svg>
+              Call Now
+            </a>
+            <a href="contact.html" class="hero-btn hero-btn-quote">
+              Get a Quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg hero-bg-2"></div>
+        <div class="home1-hero-overlay"></div>
+        <div class="home1-hero-content">
+          <p class="home1-kicker">
+            <span class="home1-kicker-dot"></span>
+            APPLIANCE CARE INDIA
+          </p>
+          <h1>
+            Refrigerator &amp; AC
+            <br>
+            <span>
+              Specialists
+            </span>
+          </h1>
+          <p class="home1-description">
+            Expert diagnosis and repair for refrigerators, air
+            conditioners, washing machines and every major
+            appliance in your home.
+          </p>
+          <div class="home1-actions">
+            <a href="tel:+919876543210" class="hero-btn hero-btn-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+              </svg>
+              Call Now
+            </a>
+            <a href="contact.html" class="hero-btn hero-btn-quote">
+              Get a Quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg hero-bg-3"></div>
+        <div class="home1-hero-overlay"></div>
+        <div class="home1-hero-content">
+          <p class="home1-kicker">
+            <span class="home1-kicker-dot"></span>
+            APPLIANCE CARE INDIA
+          </p>
+          <h1>
+            Trusted Service
+            <br>
+            <span>
+              Technicians
+            </span>
+          </h1>
+          <p class="home1-description">
+            Verified, skilled professionals who repair it right
+            the first time, every time.
+          </p>
+          <div class="home1-actions">
+            <a href="tel:+919876543210" class="hero-btn hero-btn-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+              </svg>
+              Call Now
+            </a>
+            <a href="contact.html" class="hero-btn hero-btn-quote">
+              Get a Quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg hero-bg-4"></div>
+        <div class="home1-hero-overlay"></div>
+        <div class="home1-hero-content">
+          <p class="home1-kicker">
+            <span class="home1-kicker-dot"></span>
+            APPLIANCE CARE INDIA
+          </p>
+          <h1>
+            Same-Day Repair
+            <br>
+            <span>
+              Guarantee
+            </span>
+          </h1>
+          <p class="home1-description">
+            Book today and get a technician at your doorstep the
+            same day, on most bookings across the city.
+          </p>
+          <div class="home1-actions">
+            <a href="tel:+919876543210" class="hero-btn hero-btn-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+              </svg>
+              Call Now
+            </a>
+            <a href="contact.html" class="hero-btn hero-btn-quote">
+              Get a Quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-slide-bg hero-bg-5"></div>
+        <div class="home1-hero-overlay"></div>
+        <div class="home1-hero-content">
+          <p class="home1-kicker">
+            <span class="home1-kicker-dot"></span>
+            APPLIANCE CARE INDIA
+          </p>
+          <h1>
+            Genuine Parts,
+            <br>
+            <span>
+              Lasting Repairs
+            </span>
+          </h1>
+          <p class="home1-description">
+            Quality-tested spare parts backed by a service
+            warranty on every repair we complete.
+          </p>
+          <div class="home1-actions">
+            <a href="tel:+919876543210" class="hero-btn hero-btn-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+              </svg>
+              Call Now
+            </a>
+            <a href="contact.html" class="hero-btn hero-btn-quote">
+              Get a Quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--PREV / NEXT ARROWS -->
+      <button type="button" class="hero-arrow hero-arrow-prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 5l-7 7 7 7" />
+        </svg>
+      </button>
+      <button type="button" class="hero-arrow hero-arrow-next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+      <!-- SLIDE DOTS -->
+      <div class="hero-dots" role="tablist" aria-label="Hero slides">
+        <button type="button" class="hero-dot active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+        <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+        <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+        <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+        <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+      </div>
+    </section>
+    <div class="hero-stats-wrap">
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+        <h3>500+</h3>
+        <p>Happy Customers</p>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5Z" />
+        </svg>
+        <h3>9+</h3>
+        <p>Services</p>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1Z" />
+        </svg>
+        <h3>100%</h3>
+        <p>Satisfaction</p>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3.5 2" />
+        </svg>
+        <h3>24/7</h3>
+        <p>Support</p>
+      </div>
+    </div>
+    <!-- SERVICE DETAIL SECTION -->
+    <section class="detail-section">
+      <div class="detail-container">
+        <!-- LEFT: IMAGE WITH NAVY BACKDROP -->
+        <div class="detail-media">
+          <div class="detail-media-frame">
+            <div class="detail-media-image">
+              <img src="https://i.ibb.co/Z1WPyLGd/Screenshot-2026-09-10-225314.png" alt="Appliance Care India">
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT: HEADING + DESCRIPTION -->
+        <div class="detail-content">
+          <h2>
+            At Appliance Care India
+          </h2>
+          <p>
+            At Appliance Care India, we are dedicated to providing
+            comprehensive solutions for all your home appliance problems.
+            Our commitment to quality service and customer satisfaction
+            sets us apart. We pride ourselves on offering prompt,
+            reliable, and cost-effective repair solutions, often providing
+            same-day services to minimize your inconvenience.
+          </p>
+          <ul>
+            <li>
+              Highly Professional Staff
+            </li>
+            <li>
+              100% Satisfaction Guarantee
+            </li>
+            <li>
+              Quality Control System
+            </li>
+            <li>
+              Accurate Testing Process
+            </li>
+            <li>
+              Timely Delivery
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES SECTION
+         Fans, Irons, Refrigerators, Geysers + Pricing Guide + Booking-->
+    <section class="services-section">
+      <div class="services-container">
+        <div class="section-head services-head">
+          <div class="eyebrow">
+            OUR SERVICES
+          </div>
+          <h2>
+            Appliance Repair Services You Can Rely On
+          </h2>
+          <p>
+            Straightforward repairs for the appliances you use every
+            day — clear turnaround times, upfront pricing, and no
+            surprises on the final bill.
+          </p>
+        </div>
+        <!-- SERVICE CARDS -->
+        <div class="services-grid">
+          <!-- FAN -->
+          <div class="service-card">
+            <div class="service-icon">
+              <img
+                src="https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Fan Repair">
+            </div>
+            <h3>
+              Fan Repair
+            </h3>
+            <p>
+              Ceiling, table, and exhaust fans — noise, wobble, speed control, and motor issues fixed quickly and
+              safely.
+            </p>
+            <div class="service-meta">
+              <span class="service-turnaround">
+                Same Day
+              </span>
+              <span class="service-price">
+                From ₹199
+              </span>
+            </div>
+            <a class="service-more" href="Fan%20Repair.html">More</a>
+          </div>
+          <!-- IRON -->
+          <div class="service-card">
+            <div class="service-icon">
+              <img
+                src="https://images.pexels.com/photos/53422/ironing-iron-press-clothing-53422.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Iron Box Repair">
+            </div>
+            <h3>
+              Iron Box Repair
+            </h3>
+            <p>
+              No heating, temperature faults, water leakage, or damaged cords and plates checked and fixed with care.
+            </p>
+            <div class="service-meta">
+              <span class="service-turnaround">
+                24 Hrs
+              </span>
+              <span class="service-price">
+                From ₹149
+              </span>
+            </div>
+            <a class="service-more" href="Iron%20Repair.html">More</a>
+          </div>
+          <!-- REFRIGERATOR -->
+          <div class="service-card">
+            <div class="service-icon">
+              <img
+                src="https://images.pexels.com/photos/6835104/pexels-photo-6835104.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Refrigerator Repair">
+            </div>
+            <h3>
+              Refrigerator Repair
+            </h3>
+            <p>
+              Cooling issues, compressor faults, gas leakage, and
+              noisy operation diagnosed and fixed on-site.
+            </p>
+            <div class="service-meta">
+              <span class="service-turnaround">
+                24-48 Hrs
+              </span>
+              <span class="service-price">
+                From ₹299
+              </span>
+            </div>
+            <a class="service-more" href="Refrigerator%20Repair.html">More</a>
+          </div>
+          <!-- GEYSER -->
+          <div class="service-card">
+            <div class="service-icon">
+              <img src="https://i.ibb.co/dwDKgr1B/Chat-GPT-Image-Sep-14-2026-08-00-21-PM.png" alt="Geyser Repair">
+            </div>
+            <h3>
+              Geyser Repair
+            </h3>
+            <p>
+              Heating element, thermostat faults, leakage, and
+              installation checks for safe, reliable hot water.
+            </p>
+            <div class="service-meta">
+              <span class="service-turnaround">
+                24-48 Hrs
+              </span>
+              <span class="service-price">
+                From ₹349
+              </span>
+            </div>
+            <a class="service-more" href="Geyser%20Repair.html">More</a>
+          </div>
+        </div>
+        <!-- PRICING & TURNAROUND GUIDE -->
+        <div class="pricing-guide">
+          <h3>
+            Pricing &amp; Turnaround Guide
+          </h3>
+          <div class="pricing-table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  <th>Appliance</th>
+                  <th>Common Issues</th>
+                  <th>Turnaround</th>
+                  <th>Starting Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Appliance">Fan</td>
+                  <td data-label="Common Issues">Noise, slow speed, motor issue</td>
+                  <td data-label="Turnaround">Same Day</td>
+                  <td data-label="Starting Price">₹199</td>
+                </tr>
+                <tr>
+                  <td data-label="Appliance">Iron Box</td>
+                  <td data-label="Common Issues">No heating, cord/plate damage</td>
+                  <td data-label="Turnaround">24 Hrs</td>
+                  <td data-label="Starting Price">₹149</td>
+                </tr>
+                <tr>
+                  <td data-label="Appliance">Refrigerator</td>
+                  <td data-label="Common Issues">No cooling, compressor fault, gas leakage</td>
+                  <td data-label="Turnaround">24-48 Hrs</td>
+                  <td data-label="Starting Price">₹299</td>
+                </tr>
+                <tr>
+                  <td data-label="Appliance">Geyser</td>
+                  <td data-label="Common Issues">No heating, leakage, thermostat</td>
+                  <td data-label="Turnaround">24-48 Hrs</td>
+                  <td data-label="Starting Price">₹349</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--  DROP-OFF / HOME PICKUP BOOKING FORM-->
+        <div class="booking-box">
+          <div class="booking-head">
+            <h3>
+              Book a Drop-off or Home Pickup
+            </h3>
+            <p>
+              Tell us about your appliance and choose whichever option
+              is easiest for you — we'll confirm by phone shortly after.
+            </p>
+          </div>
+          <form class="booking-form" id="serviceBookingForm">
+            <div class="booking-toggle" role="radiogroup" aria-label="Service type">
+              <input type="radio" id="serviceDropoff" name="serviceType" value="dropoff" checked>
+              <label for="serviceDropoff">
+                Drop-off at Center
+              </label>
+              <input type="radio" id="servicePickup" name="serviceType" value="pickup">
+              <label for="servicePickup">
+                Home Pickup
+              </label>
+            </div>
+            <div class="booking-fields">
+              <div class="input-box">
+                <label for="bookingName">
+                  Full Name
+                </label>
+                <input type="text" id="bookingName" name="name" placeholder="Your name" required>
+              </div>
+              <div class="input-box">
+                <label for="bookingPhone">
+                  Phone Number
+                </label>
+                <input type="tel" id="bookingPhone" name="phone" placeholder="10-digit mobile number" required>
+              </div>
+              <div class="input-box">
+                <label for="bookingAppliance">
+                  Appliance
+                </label>
+                <select id="bookingAppliance" name="appliance" required>
+                  <option value="" disabled selected>Select appliance</option>
+                  <option>Fan</option>
+                  <option>Iron Box</option>
+                  <option>Refrigerator</option>
+                  <option>Geyser</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="input-box">
+                <label for="bookingDate">
+                  Preferred Date
+                </label>
+                <input type="date" id="bookingDate" name="date" required>
+              </div>
+              <div class="input-box booking-address" id="bookingAddressBox">
+                <label for="bookingAddress">
+                  Pickup Address
+                  <span class="optional-tag" id="bookingAddressHint">
+                    (required for home pickup)
+                  </span>
+                </label>
+                <textarea id="bookingAddress" name="address" rows="2"
+                  placeholder="House no, street, area, city"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="booking-submit">
+              Confirm Booking
+            </button>
+            <p class="booking-success" id="bookingSuccessMsg" role="status">
+              Thanks! Your booking request has been noted — our team
+              will call you shortly to confirm.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--  VIDEO SHOWCASE SECTION -->
+    <section class="video-section">
+      <div class="video-container">
+        <!-- LEFT: HEADING + DESCRIPTION -->
+        <div class="video-content">
+          <div class="video-kicker">
+            <span></span>
+            WATCH
+          </div>
+          <h2>
+            See Our Repair Process in Action
+          </h2>
+          <p>
+            From diagnosis to the final test run, watch how our
+            Appliance Care India technicians handle real repairs
+            with care, precision, and the right tools for the job.
+          </p>
+          <ul>
+            <li>
+              Real On-Site Repair Footage
+            </li>
+            <li>
+              Certified Technician Handling
+            </li>
+            <li>
+              Quality Checked Before Handover
+            </li>
+          </ul>
+          <a href="contact.html" class="video-cta">
+            Book a Repair
+          </a>
+        </div>
+        <!-- RIGHT: VERTICAL VIDEO -->
+        <div class="video-media">
+          <div class="video-frame">
+            <video class="showcase-video" controls controlsList="nodownload" preload="metadata" playsinline muted loop
+              autoplay>
+              <source src="../assets/video/reel_enhanced_brightness_quality.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OFFERS & PREMIUM PLANS SECTION-->
+    <section class="offers-section">
+      <div class="offers-container">
+        <div class="section-head offers-head">
+          <div class="eyebrow">
+            OFFERS
+          </div>
+          <h2>
+            Best Offers & Premium Plans
+          </h2>
+          <p>
+            Pick a plan that fits how you use your appliances and save
+            more with priority service, free diagnosis, and discounted
+            spare parts.
+          </p>
+        </div>
+        <div class="offers-grid">
+          <!-- OFFER 1 -->
+          <div class="offer-card">
+            <div class="offer-tag">
+              New Customers
+            </div>
+            <h3>
+              First Repair Special
+            </h3>
+            <div class="offer-price">
+              20% <span>OFF</span>
+            </div>
+            <p>
+              Get 20% off your first repair booking with us. No hidden
+              charges, transparent estimate before we start any work.
+            </p>
+            <ul class="offer-list">
+              <li>Free Initial Diagnosis</li>
+              <li>Same-Day Service Available</li>
+              <li>Transparent Pricing</li>
+            </ul>
+            <a href="contact.html" class="offer-button">
+              Claim Offer
+            </a>
+          </div>
+          <!-- OFFER 2: PREMIUM / BEST VALUE -->
+          <div class="offer-card offer-featured">
+            <div class="offer-tag offer-tag-featured">
+              Best Value
+            </div>
+            <h3>
+              Premium Care Plan
+            </h3>
+            <div class="offer-price">
+              ₹999 <span>/ year</span>
+            </div>
+            <p>
+              Annual coverage for your AC, RO, refrigerator, and washing
+              machine with two scheduled services and priority support.
+            </p>
+            <ul class="offer-list">
+              <li>2 Scheduled Services / Year</li>
+              <li>Priority Booking Slots</li>
+              <li>Discounted Spare Parts</li>
+              <li>Dedicated Support Line</li>
+            </ul>
+            <a href="contact.html" class="offer-button offer-button-featured">
+              Get Premium Plan
+            </a>
+          </div>
+          <!-- OFFER 3 -->
+          <div class="offer-card">
+            <div class="offer-tag">
+              Combo Deal
+            </div>
+            <h3>
+              Multi-Appliance Bundle
+            </h3>
+            <div class="offer-price">
+              15% <span>OFF</span>
+            </div>
+            <p>
+              Book service for two or more appliances together in a
+              single visit and save on the combined bill.
+            </p>
+            <ul class="offer-list">
+              <li>Single Visit, Multiple Repairs</li>
+              <li>Certified Technicians</li>
+              <li>Quality Checked Before Handover</li>
+            </ul>
+            <a href="contact.html" class="offer-button">
+              Book Combo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+      <div class="faq-container">
+        <div class="faq-grid">
+          <!-- FAQ INTRO -->
+          <div class="faq-intro">
+            <div class="faq-kicker">
+              <span></span>
+              FAQ
+            </div>
+            <h2>
+              Do You Have Questions Appliance Repairs
+            </h2>
+            <p class="faq-intro-text">
+              Answers to what customers usually ask before booking a repair with us.
+            </p>
+            <a href="contact.html" class="faq-cta">
+              Ask our team
+            </a>
+          </div>
+          <!-- FAQ LIST-->
+          <div class="faq-list">
+            <!-- FAQ 1-->
+            <div class="faq-item active">
+              <button class="faq-question" type="button" aria-expanded="true">
+                <span>
+                  What types of appliances do you repair at Appliance Care India?
+                </span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>
+                    At Appliance Care India, we specialise in repairing
+                    a wide range of appliances including air conditioners
+                    (AC), reverse osmosis (RO) systems, refrigerators,
+                    and washing machines.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- FAQ 2-->
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>
+                  How do I schedule a repair service for my appliance?
+                </span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>
+                    You can schedule a repair service by contacting
+                    Appliance Care India through our contact page.
+                    Our team will help you arrange a convenient
+                    service time.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  FAQ 3-->
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>
+                  Are your technicians trained and certified to repair appliances?
+                </span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>
+                    Yes. Our technicians are trained to diagnose and
+                    handle common appliance problems professionally
+                    and efficiently.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- FAQ 4-->
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>
+                  Do you provide on-site repairs, or do I need to bring my appliance to your service center?
+                </span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>
+                    We provide convenient repair solutions and, where
+                    applicable, our technicians can visit your location
+                    to inspect and repair the appliance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- FAQ 5 -->
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>
+                  What brands of appliances do you repair?
+                </span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>
+                    We work with a wide range of appliance brands.
+                    Contact our service team with your appliance
+                    brand and model to know more about the available
+                    repair support.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--  FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column footer-brand">
+        <a href="index.html" class="logo footer-logo-link">
+          <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+          <span>
+            <span class="title-one">SparkDen</span>
+            <span class="title-two">Service</span>
+          </span>
+        </a>
+        <p>
+          Fast and reliable electrical appliance repair
+          services for your everyday home needs.
+        </p>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Instagram" title="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook" title="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter X" title="Twitter X">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" title="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+              viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="home1.html">Home</a>
+        <a href="about.html">about</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">blogs</a>
+        <a href="contact.html">contact us</a>
+      </div>
+      <div class="footer-column">
+        <h3>Our Services</h3>
+        <a href="Fan%20Repair.html">Fan Repair</a>
+        <a href="Refrigerator%20Repair.html">Refrigerator Repair</a>
+        <a href="Iron%20Repair.html">Iron Repair</a>
+        <a href="Geyser%20Repair.html">Geyser Repair</a>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>
+          +91 98765 43210
+        </p>
+        <p>
+          sparkden@example.com
+        </p>
+        <p>
+          Hyderabad, Telangana, India
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        &copy; 2026 SparkDen Service . All Rights Reserved.
+      </p>
+      <p>
+        SparkDen Service Appliance
+      </p>
+    </div>
+  </footer>
+  <!-- FLOATING CALL BUTTON -->
+  <a href="tel:+919876543210" class="floating-call-btn" aria-label="Call SparkDen Service">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round" aria-hidden="true">
+      <path d="M4 4c0 9.4 6.6 16 16 16l3-3-5-4-2 2c-2-1-5-4-6-6l2-2-4-5-3 2Z" />
+    </svg>
+  </a>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

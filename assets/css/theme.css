@@ -1,0 +1,1866 @@
+:root {
+  color-scheme: light;
+  --bg-color: #f7f9fc;
+  --bg-secondary: #edf2f7;
+  --bg-tertiary: #e2e8f0;
+  --surface: #ffffff;
+  --surface-strong: #ffffff;
+  --card-bg: #ffffff;
+  --card-bg-hover: #f8fafc;
+  --text-primary: #102033;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --on-accent: #ffffff;
+  --accent-color: #c2410c;
+  --accent-hover: #9a3412;
+  --accent-light: #ffedd5;
+  --blue-color: #0f766e;
+  --blue-hover: #115e59;
+  --blue-light: #14b8a6;
+  --blue-soft: #e6fffb;
+  --blue-soft-2: #f0fdfa;
+  --blue-soft-3: #ffffff;
+  --navy-color: #102033;
+  --white-color: #ffffff;
+  --black-color: #102033;
+  --header-bg: #ffffff;
+  --header-text: #102033;
+  --header-border: #dbe4ef;
+  --footer-bg: #dff4f0;
+  --footer-text: #12343b;
+  --footer-muted: #2f4b4f;
+  --prefooter-bg: #f0fdfa;
+  --prefooter-surface: #ffffff;
+  --prefooter-border: #99f6e4;
+  --prefooter-text: #12343b;
+  --prefooter-muted: #2f4b4f;
+  --input-bg: #ffffff;
+  --input-text: #102033;
+  --input-placeholder: #94a3b8;
+  --input-border: #cbd5e1;
+  --input-focus: #0f766e;
+  --input-focus-shadow: rgba(15, 118, 110, 0.2);
+  --border-color: #cbd5e1;
+  --border-light: #e2e8f0;
+  --success-color: #15803d;
+  --warning-color: #b45309;
+  --error-color: #b91c1c;
+  --overlay-bg: rgba(255, 255, 255, 0.82);
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.07);
+  --shadow-md: 0 10px 28px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 20px 50px rgba(15, 23, 42, 0.14);
+  --shadow-card: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-card-soft: 0 5px 18px rgba(15, 23, 42, 0.08);
+  --shadow-card-hover: 0 16px 34px rgba(15, 23, 42, 0.14);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --transition: 0.3s ease;
+  --hero-image-filter: brightness(1.08) saturate(0.95);
+  --booking-hero-overlay: linear-gradient(180deg, rgba(16, 32, 51, 0.32), rgba(16, 32, 51, 0.48));
+  --contact-hero-overlay: linear-gradient(90deg, rgba(15, 23, 42, 0.68) 0%, rgba(15, 23, 42, 0.48) 42%, rgba(15, 23, 42, 0.22) 72%, rgba(15, 23, 42, 0.10) 100%);
+  --hero-text: #ffffff;
+  --hero-text-muted: rgba(255, 255, 255, 0.92);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  /* Dark mode palette */
+  --bg-color: #0b1220;
+  --bg-secondary: #111d2d;
+  --bg-tertiary: #18273a;
+  --surface: #152237;
+  --surface-strong: #1a2b41;
+  --card-bg: #16263a;
+  --card-bg-hover: #1e334b;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-light: #64748b;
+  --on-accent: #082f49;
+  --accent-color: #fdbb74;
+  --accent-hover: #fed7aa;
+  --accent-light: rgba(253, 187, 116, 0.16);
+  --blue-color: #5eead4;
+  --blue-hover: #99f6e4;
+  --blue-light: #99f6e4;
+  --blue-soft: #12363d;
+  --blue-soft-2: #102b34;
+  --blue-soft-3: #0e1828;
+  --navy-color: #e2e8f0;
+  --white-color: #f8fafc;
+  --black-color: #f8fafc;
+  --header-bg: #152237;
+  --header-text: #f8fafc;
+  --header-border: #2a3b52;
+  --footer-bg: #08111f;
+  --footer-text: #f8fafc;
+  --footer-muted: #cbd5e1;
+  --prefooter-bg: #102b34;
+  --prefooter-surface: #152237;
+  --prefooter-border: #2a6f73;
+  --prefooter-text: #f8fafc;
+  --prefooter-muted: #cbd5e1;
+  --input-bg: #101d30;
+  --input-text: #f8fafc;
+  --input-placeholder: #94a3b8;
+  --input-border: #38506b;
+  --input-focus: #5eead4;
+  --input-focus-shadow: rgba(94, 234, 212, 0.24);
+  --border-color: #30465f;
+  --border-light: #24364d;
+  --success-color: #4ade80;
+  --warning-color: #fbbf24;
+  --error-color: #f87171;
+  --overlay-bg: rgba(11, 18, 32, 0.82);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0 10px 28px rgba(0, 0, 0, 0.34);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.44);
+  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.26);
+  --shadow-card-soft: 0 5px 18px rgba(0, 0, 0, 0.24);
+  --shadow-card-hover: 0 16px 34px rgba(0, 0, 0, 0.38);
+  --hero-image-filter: brightness(0.68) saturate(0.88);
+  --booking-hero-overlay: linear-gradient(180deg, rgba(8, 17, 31, 0.68), rgba(8, 17, 31, 0.84));
+  --contact-hero-overlay: linear-gradient(90deg, rgba(8, 17, 31, 0.92) 0%, rgba(8, 17, 31, 0.76) 42%, rgba(8, 17, 31, 0.52) 72%, rgba(8, 17, 31, 0.30) 100%);
+  --hero-text: #f8fafc;
+  --hero-text-muted: rgba(248, 250, 252, 0.90);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+main {
+  background: var(--bg-color);
+  color: var(--text-primary);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--blue-color);
+}
+
+a:hover {
+  color: var(--blue-hover);
+}
+
+input,
+textarea,
+select,
+.input-box {
+  background: var(--input-bg) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--input-placeholder) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.input-box:focus-within {
+  border-color: var(--input-focus) !important;
+  box-shadow: 0 0 0 4px var(--input-focus-shadow) !important;
+  outline: none;
+}
+
+.header,
+header,
+.auth-header {
+  background: var(--header-bg) !important;
+  color: var(--header-text) !important;
+  border-color: var(--header-border) !important;
+}
+
+.navbar a,
+.nav-links a,
+.nav-links .nav-dropdown,
+.logo,
+.logo span,
+.title-one,
+.title-two {
+  color: var(--header-text) !important;
+}
+
+.navbar a:hover,
+.navbar a.active,
+.nav-links a:hover,
+.nav-links a.active,
+.nav-links li:hover .nav-dropdown {
+  color: var(--accent-color) !important;
+}
+
+.title-one,
+.logo-blue {
+  color: var(--accent-color) !important;
+}
+
+.mode,
+.theme-btn,
+.theme-toggle,
+.ltr,
+.direction-btn {
+  background: var(--bg-tertiary) !important;
+  color: var(--header-text) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.mode:hover,
+.theme-btn:hover,
+.theme-toggle:hover,
+.ltr:hover,
+.direction-btn:hover {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.login-btn {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+}
+
+.login-btn:hover {
+  background: var(--accent-hover) !important;
+  color: var(--on-accent) !important;
+}
+
+.dropdown-menu {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.dropdown-menu a {
+  color: var(--text-primary) !important;
+}
+
+.dropdown-menu a:hover {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+}
+
+.section,
+.about-hero,
+.service-hero,
+.blog-hero,
+.contact-page,
+.contact-section,
+.posts-section,
+.approach-section,
+.benefits-section,
+.drive-section,
+.values-section,
+.reviews-section,
+.how-section {
+  color: var(--text-primary);
+}
+
+.section {
+  background: var(--bg-color) !important;
+}
+
+.how-section,
+.reviews-section,
+.approach-section,
+.benefits-section,
+.posts-section,
+.drive-section,
+.values-section {
+  background: var(--bg-secondary) !important;
+}
+
+.hero,
+.about-hero,
+.service-hero,
+.blog-hero {
+  background: linear-gradient(110deg,
+      var(--blue-soft) 0%,
+      var(--blue-soft-2) 52%,
+      var(--blue-soft-3) 100%) !important;
+}
+
+.section-head h2,
+.section-heading h2,
+.section-head p,
+.section-heading p {
+  color: var(--text-primary);
+}
+
+.section-head p,
+.section-heading p,
+.hero-content .description,
+.hero-content p:not(.small-title),
+.blog-hero-content>p:last-child,
+.service-hero .hero-content>p:last-child,
+.about-hero .hero-content>p:last-child {
+  color: var(--text-secondary) !important;
+}
+
+.eyebrow,
+.small-title,
+.section-label {
+  color: var(--accent-color) !important;
+}
+
+.card,
+.service-card,
+.about-card,
+.process-card,
+.drive-card,
+.value-card,
+.service-box,
+.approach-card,
+.benefit-item,
+.featured-post,
+.post-card,
+.tip-box,
+.review-card,
+.offer-card,
+.program-card,
+.team-card,
+.prog-card,
+.enquiry-box,
+.map-box,
+.contact-item,
+.auth-card,
+.login-card,
+.register-card,
+.service-content,
+.featured-content,
+.post-content {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.card:hover,
+.service-card:hover,
+.about-card:hover,
+.process-card:hover,
+.drive-card:hover,
+.value-card:hover,
+.service-box:hover,
+.approach-card:hover,
+.benefit-item:hover,
+.featured-post:hover,
+.post-card:hover,
+.tip-box:hover,
+.review-card:hover,
+.offer-card:hover,
+.program-card:hover,
+.team-card:hover,
+.prog-card:hover {
+  background: var(--card-bg-hover) !important;
+  box-shadow: var(--shadow-card-hover) !important;
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card h6,
+.service-card h1,
+.service-card h2,
+.service-card h3,
+.service-card h4,
+.service-card h5,
+.service-card h6,
+.about-card h1,
+.about-card h2,
+.about-card h3,
+.about-card h4,
+.about-card h5,
+.about-card h6,
+.process-card h1,
+.process-card h2,
+.process-card h3,
+.process-card h4,
+.process-card h5,
+.process-card h6,
+.drive-card h1,
+.drive-card h2,
+.drive-card h3,
+.drive-card h4,
+.drive-card h5,
+.drive-card h6,
+.value-card h1,
+.value-card h2,
+.value-card h3,
+.value-card h4,
+.value-card h5,
+.value-card h6,
+.service-box h1,
+.service-box h2,
+.service-box h3,
+.service-box h4,
+.service-box h5,
+.service-box h6,
+.approach-card h1,
+.approach-card h2,
+.approach-card h3,
+.approach-card h4,
+.approach-card h5,
+.approach-card h6,
+.post-card h1,
+.post-card h2,
+.post-card h3,
+.post-card h4,
+.post-card h5,
+.post-card h6,
+.auth-card h1,
+.auth-card h2,
+.auth-card h3,
+.auth-card h4,
+.login-card h1,
+.login-card h2,
+.login-card h3,
+.register-card h1,
+.register-card h2,
+.register-card h3 {
+  color: var(--header-text) !important;
+}
+
+.card p,
+.service-card p,
+.about-card p,
+.process-card p,
+.drive-card p,
+.value-card p,
+.service-box p,
+.approach-card p,
+.benefit-item p,
+.featured-post p,
+.post-card p,
+.tip-box p,
+.review-card p,
+.offer-card p,
+.program-card p,
+.team-card p,
+.contact-item p,
+.auth-card p,
+.login-card p,
+.register-card p {
+  color: var(--text-secondary) !important;
+}
+
+/* Services, Why Sparkden, How It Works, Customer Reviews, What Drives Us, Our Values cards: orange border */
+.card,
+.service-card,
+.about-card,
+.process-card,
+.review-card,
+.drive-card,
+.value-card,
+.service-box,
+.approach-card,
+.benefit-item,
+.featured-post,
+.post-card {
+  border-color: var(--accent-color) !important;
+}
+
+/* ACTIONS / CTA SECTIONS */
+.book-button,
+.hero-button,
+.cta-button,
+.send-enquiry,
+.support-button,
+.login-submit,
+.signup-submit,
+.signup-submit,
+.contact-support button {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.book-button:hover,
+.hero-button:hover,
+.cta-button:hover,
+.send-enquiry:hover,
+.support-button:hover,
+.login-submit:hover,
+.signup-submit:hover,
+.contact-support button:hover {
+  background: var(--accent-hover) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--accent-hover) !important;
+}
+
+.service-button,
+.read-button {
+  background: var(--blue-color) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--blue-color) !important;
+}
+
+.service-button:hover,
+.read-button:hover {
+  background: var(--blue-hover) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--blue-hover) !important;
+}
+
+.cta-section,
+.contact-support {
+  background: var(--prefooter-bg) !important;
+  color: var(--prefooter-text) !important;
+  border-top: 1px solid var(--prefooter-border);
+  border-bottom: 1px solid var(--prefooter-border);
+}
+
+.commitment-section,
+.footer {
+  background: var(--footer-bg) !important;
+  color: var(--footer-text) !important;
+}
+
+.cta-section h1,
+.cta-section h2,
+.cta-section h3,
+.contact-support h1,
+.contact-support h2,
+.contact-support h3,
+.contact-support-inner h2 {
+  color: var(--prefooter-text) !important;
+}
+
+.commitment-section h1,
+.commitment-section h2,
+.commitment-section h3,
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6,
+.footer-logo,
+.footer-title {
+  color: var(--footer-text) !important;
+}
+
+.cta-section p,
+.contact-support p,
+.contact-support-inner p,
+.contact-support-inner span {
+  color: var(--prefooter-muted) !important;
+}
+
+.contact-support-inner {
+  background: var(--prefooter-surface) !important;
+  border: 1px solid var(--prefooter-border);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-support-inner span {
+  color: var(--accent-color) !important;
+}
+
+.commitment-section p,
+.footer p,
+.footer a,
+.footer-contact-info li,
+.footer-contact-info li a,
+.footer-contact-info li span {
+  color: var(--footer-muted) !important;
+}
+
+.footer a:hover {
+  color: var(--accent-hover) !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--blue-color);
+  outline-offset: 3px;
+}
+.auth-header {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.auth-card .input-box,
+.register-card .input-box {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card .input-box:focus-within,
+.register-card .input-box:focus-within,
+.auth-card .input-box:has(input:not(:placeholder-shown)),
+.register-card .input-box:has(input:not(:placeholder-shown)) {
+  border: 2px solid #5eead4 !important;
+  box-shadow: 0 0 0 4px rgba(94, 234, 212, 0.22) !important;
+}
+
+.auth-card .input-box input:focus,
+.register-card .input-box input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.auth-header .theme-btn,
+.auth-header .direction-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  direction: ltr;
+}
+
+.footer-social a {
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0;
+  border: 1px solid var(--footer-muted);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--footer-text) !important;
+  text-decoration: none;
+  transition: transform var(--transition), background-color var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.footer-social a:hover {
+  background: var(--accent-color);
+  color: var(--on-accent) !important;
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.footer-social svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: currentColor;
+}
+
+
+/*SHARED INDEX/HOME1 SHELL */
+.header {
+  height: 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 30px !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+}
+
+.logo img {
+  width: 45px !important;
+  height: 45px !important;
+  object-fit: contain !important;
+}
+
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 25px !important;
+}
+
+.navbar a {
+  font-size: 15px !important;
+  text-decoration: none !important;
+}
+
+.header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.mode {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  font-size: 18px !important;
+}
+
+.ltr {
+  padding: 10px 14px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.login-btn {
+  padding: 10px 18px !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+}
+
+.footer {
+  width: 100% !important;
+  color: var(--footer-text) !important;
+}
+
+.footer-container {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 60px 30px !important;
+  display: grid !important;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr !important;
+  gap: 50px !important;
+}
+
+.footer-brand {
+  max-width: 350px !important;
+}
+
+.footer-logo,
+.footer-brand .logo {
+  font-size: 22px !important;
+  line-height: 1 !important;
+}
+
+.footer-logo img,
+.footer-brand .logo img {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.footer-column h3 {
+  font-size: 18px !important;
+  margin: 0 0 20px !important;
+}
+
+.footer-column a,
+.footer-column p,
+.footer-brand p {
+  font-size: 14px !important;
+}
+
+.footer-bottom {
+  padding: 20px 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+}
+
+.footer-bottom p {
+  font-size: 13px !important;
+}
+
+.home1-kicker,
+.booking-toggle input[type="radio"]:checked+label {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+}
+
+.hero-btn-call,
+.floating-call-btn,
+.video-cta,
+.faq-cta,
+.booking-submit {
+  background: var(--accent-color) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.hero-btn-call:hover,
+.floating-call-btn:hover,
+.video-cta:hover,
+.faq-cta:hover,
+.booking-submit:hover {
+  background: var(--accent-hover) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--accent-hover) !important;
+}
+
+.hero-btn-quote {
+  background: var(--blue-color) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--blue-color) !important;
+}
+
+.hero-btn-quote:hover {
+  background: var(--blue-hover) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--blue-hover) !important;
+}
+
+.hero-arrow {
+  background: color-mix(in srgb, var(--blue-color) 86%, transparent) !important;
+  color: var(--on-accent) !important;
+}
+
+.hero-arrow:hover {
+  background: var(--blue-hover) !important;
+  color: var(--on-accent) !important;
+}
+
+.hero-dot {
+  background: color-mix(in srgb, var(--text-primary) 36%, transparent) !important;
+}
+
+.hero-dot.active {
+  background: var(--accent-color) !important;
+}
+
+.detail-media-backdrop {
+  background: var(--footer-bg) !important;
+}
+
+.booking-hero .small-title,
+.booking-hero-content h1,
+.booking-hero-content p {
+  color: var(--white-color) !important;
+}
+
+.booking-hero-content h1 span {
+  color: var(--blue-light) !important;
+}
+
+.booking-card {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.booking-card h2,
+.booking-card .form-group label,
+.info-card h3 {
+  color: var(--text-primary) !important;
+}
+
+.booking-card>p,
+.info-card p {
+  color: var(--text-secondary) !important;
+}
+
+.booking-card input,
+.booking-card select,
+.booking-card textarea {
+  background: var(--input-bg) !important;
+  color: var(--input-text) !important;
+  border-color: var(--input-border) !important;
+}
+
+.info-card {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--blue-color) !important;
+}
+
+.info-icon {
+  background: var(--blue-color) !important;
+  color: var(--on-accent) !important;
+}
+
+section.faq-section {
+  background: linear-gradient(135deg,
+      var(--footer-bg) 0%,
+      var(--bg-secondary) 55%,
+      var(--footer-bg) 100%) !important;
+  background-image: linear-gradient(135deg,
+      var(--footer-bg) 0%,
+      var(--bg-secondary) 55%,
+      var(--footer-bg) 100%) !important;
+}
+
+.faq-kicker,
+.faq-intro h2,
+.faq-intro-text {
+  color: var(--footer-text) !important;
+}
+
+.faq-kicker span {
+  background: var(--blue-color) !important;
+}
+
+.faq-list {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.faq-question,
+.faq-answer {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+}
+
+.faq-question span,
+.faq-icon,
+.faq-answer p {
+  color: var(--text-primary) !important;
+}
+
+.faq-question:hover span,
+.faq-question:hover .faq-icon {
+  color: var(--accent-color) !important;
+}
+
+/* Theme-toggle icons */
+#sun-icon {
+  display: none;
+}
+
+[data-theme="dark"] #moon-icon {
+  display: none;
+}
+
+[data-theme="dark"] #sun-icon {
+  display: inline-block;
+}
+
+.navbar .nav-services>.services-toggle-label {
+  /* Match the Home header control exactly */
+  font-family: Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+}
+
+.mobile-menu-toggle,
+.home-menu-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.nav-home .home-menu-toggle:checked~.home-dropdown {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 900px) {
+  /* Header should scroll normally on mobile */
+  body .header {
+    position: relative !important;
+    top: auto !important;
+    z-index: 1300;
+    height: auto !important;
+    min-height: 72px;
+    flex-wrap: wrap;
+    padding-inline: 22px !important;
+    padding-block: 10px !important;
+  }
+
+  .header .logo {
+    min-height: 0;
+    font-size: 22px !important;
+    gap: 8px !important;
+    margin-inline-end: 0;
+  }
+
+  .header .logo img {
+    width: 50px !important;
+    height: 50px !important;
+    flex: 0 0 50px !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+  .header .header-right {
+    order: 3;
+    margin-left: auto;
+    gap: 8px !important;
+    min-width: 0;
+  }
+
+  .header .mode,
+  .header #theme-toggle {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    min-height: 36px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
+    padding: 0 !important;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .header .ltr {
+    padding: 8px 10px !important;
+    font-size: 13px !important;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .header .login-btn {
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+    flex-shrink: 0;
+  }
+
+  /* Hamburger button */
+  .mobile-menu-button {
+    display: inline-flex;
+    order: 4;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 11px 10px;
+    margin-left: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-tertiary);
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu-button span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--header-text);
+    transition: transform 0.25s ease, opacity 0.2s ease;
+  }
+
+  .mobile-menu-toggle:checked~.mobile-menu-button span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu-toggle:checked~.mobile-menu-button span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu-toggle:checked~.mobile-menu-button span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobile-menu-toggle:focus-visible~.mobile-menu-button {
+    outline: 3px solid var(--blue-color);
+    outline-offset: 3px;
+  }
+
+  .header .navbar {
+    display: none !important;
+  }
+
+  #mobile-menu-toggle:checked~.navbar {
+    display: flex !important;
+    position: fixed;
+    top: 72px;
+    /* header min-height on mobile */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    max-width: none;
+    height: calc(100vh - 72px);
+    max-height: calc(100vh - 72px);
+    margin: 0;
+    padding: 8px 0 24px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0 !important;
+    background: var(--header-bg);
+    border-top: 1px solid var(--border-color);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1250;
+  }
+
+
+  .header .navbar>a,
+  .header .navbar .nav-home-toggle,
+  .header .navbar .nav-services>.services-toggle-label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 13px 22px;
+    font-size: 15px !important;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: start;
+    color: var(--header-text);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .header .navbar>a:last-of-type {
+    border-bottom: 0;
+  }
+
+  .header .navbar .nav-home,
+  .header .navbar .nav-services {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+
+  .header .navbar .nav-home-toggle {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+
+  /* Sub-lists stay collapsed until their row is tapped */
+  .header .navbar .home-dropdown,
+  .header .navbar .services-dropdown {
+    position: static !important;
+    display: none !important;
+    flex-direction: column;
+    gap: 0;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: none !important;
+  }
+
+  /* Tap "Home" / "Services" to expand or collapse the sub-links */
+  .header .navbar .home-menu-toggle:checked~.home-dropdown,
+  .header .navbar #services-toggle:checked~.services-dropdown {
+    display: flex !important;
+  }
+
+  .header .navbar .home-menu-toggle:checked~.nav-home-toggle::after,
+  .header .navbar #services-toggle:checked~.services-toggle-label::after {
+    transform: rotate(225deg) translate(-1px, -1px);
+  }
+
+  .header .navbar .home-menu-toggle:checked~.nav-home-toggle,
+  .header .navbar #services-toggle:checked~.services-toggle-label {
+    color: var(--brand-secondary) !important;
+  }
+
+  .header .navbar .home-dropdown::before,
+  .header .navbar .services-dropdown::before {
+    display: none;
+  }
+
+  .header .navbar .home-dropdown a,
+  .header .navbar .services-dropdown a {
+    display: block;
+    width: 100%;
+    padding: 10px 22px;
+    padding-inline-start: 42px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary) !important;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border-light);
+    white-space: normal;
+  }
+
+  .header .navbar .home-dropdown a:last-child,
+  .header .navbar .services-dropdown a:last-child {
+    border-bottom: 0;
+  }
+
+  .header .navbar .home-dropdown a:hover,
+  .header .navbar .home-dropdown a:focus-visible,
+  .header .navbar .home-dropdown a.active,
+  .header .navbar .services-dropdown a:hover,
+  .header .navbar .services-dropdown a:focus-visible,
+  .header .navbar .services-dropdown a.active {
+    background: transparent;
+    color: var(--brand-secondary) !important;
+    outline: none;
+  }
+
+  .hero {
+    min-height: 0 !important;
+  }
+
+  .hero-content {
+    padding: 48px 24px 40px 5%;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(28px, 4.6vw, 44px) !important;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 34px !important;
+    padding: 44px 15px !important;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    text-align: center;
+    gap: 10px !important;
+    padding: 16px 22px !important;
+  }
+
+  /* home2: stack the service-detail split and narrow the services grid */
+  .detail-container {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .detail-media {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    padding: 46px 22px 0;
+  }
+
+  .detail-media-frame {
+    width: 100%;
+    margin: 0;
+    transform: none;
+  }
+
+  .detail-media-image {
+    margin: 0;
+    transform: none;
+  }
+
+  .detail-content {
+    width: 100%;
+    padding: 26px 22px 46px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking-hero {
+    overflow: hidden;
+  }
+
+  /* home2: offers grid narrows on tablets */
+  .offers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* services: wall strip wraps, approach grid narrows */
+  .service-wall {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .service-wall-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .service-wall-intro {
+    width: 100%;
+    padding: 0 0 3px;
+  }
+
+  .wall-panel {
+    flex: 1 1 45%;
+    height: 190px;
+  }
+
+  .approach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* about page: drive grid narrows on tablets */
+  .drive-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* appliance services: single-column hero */
+  .appliance-page .services-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding: 46px 0;
+  }
+
+  .appliance-page .hero-visual {
+    margin: 0 auto;
+  }
+
+  /* contact hero becomes full width on tablet/mobile */
+  .contact-hero-content {
+    width: 100%;
+    padding: 56px 22px 30px;
+  }
+
+  .contact-hero .contact-hero-content h1 {
+    font-size: clamp(34px, 9vw, 46px) !important;
+  }
+}
+
+@media (max-width: 900px) and (max-height: 480px) {
+
+  /* Short landscape phones: tighter rows, panel scrolls in-viewport */
+  .header .navbar>a,
+  .header .navbar .nav-home-toggle,
+  .header .navbar .nav-services>.services-toggle-label {
+    padding-block: 9px;
+  }
+
+  .header .navbar .home-dropdown a,
+  .header .navbar .services-dropdown a {
+    padding-block: 7px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  /* Very small screens: the side-by-side hero no longer fits,
+     so stack it with the minimum changes required */
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 38px 20px 24px;
+  }
+
+  .hero-content .description {
+    font-size: 15px;
+  }
+
+  .hero-image {
+    width: min(88%, 460px);
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin: 6px auto 46px;
+  }
+
+  .hero-badge {
+    left: 12px;
+  }
+
+  /* Service/repair pages: stack main content + sidebar, uncrush media */
+  .service-detail-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .service-main-content {
+    padding: 26px 20px;
+  }
+
+  .service-main-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .process-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Space runs out below 640px: these desktop splits go single-column */
+  .about-hero,
+  .story-grid,
+  .about-grid,
+  .reviews-grid,
+  .benefits-layout,
+  .booking-layout,
+  .faq-grid,
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-intro {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+
+  body .header {
+    padding-inline: 16px !important;
+  }
+
+  .footer-container {
+    padding-inline: 16px !important;
+  }
+
+  .header .logo {
+    font-size: 17px !important;
+    gap: 6px !important;
+  }
+
+  .header .logo img {
+    width: 34px !important;
+    height: 34px !important;
+    flex: 0 0 34px !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+  .header .header-right {
+    gap: 6px !important;
+  }
+
+  .header .mode,
+  .header #theme-toggle {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    min-height: 34px !important;
+    max-width: 34px !important;
+    max-height: 34px !important;
+    padding: 0 !important;
+  }
+
+  .header .ltr {
+    padding: 6px 8px !important;
+    font-size: 12px !important;
+  }
+
+  .header .login-btn {
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+  }
+
+  .mobile-menu-button {
+    width: 38px;
+    height: 38px;
+    padding: 10px 8px;
+    gap: 4px;
+    margin-left: 2px;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .section {
+    padding-inline: 18px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-card {
+    padding: 28px 20px;
+  }
+
+  .pricing-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .offers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wall-panel {
+    flex: 1 1 100%;
+    height: 170px;
+  }
+
+  .contact-support-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 26px 20px;
+  }
+
+  .drive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* service/repair pages: single-column cards on small phones */
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fan-image-gallery,
+  .geyser-image-gallery,
+  .iron-image-gallery,
+  .fridge-image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fan-rating-section,
+  .geyser-rating-section,
+  .iron-rating-section,
+  .fridge-rating-section {
+    grid-template-columns: 1fr;
+  }
+
+  .customer-reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  body .header {
+    padding-inline: 16px !important;
+  }
+
+  .header .logo {
+    font-size: 15px !important;
+    gap: 5px !important;
+    margin-inline-end: 0;
+  }
+
+  .header .logo img {
+    width: 34px !important;
+    height: 34px !important;
+    flex: 0 0 34px !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    padding: 2px;
+  }
+
+  .header .header-right {
+    gap: 4px !important;
+  }
+
+  .header .mode,
+  .header #theme-toggle {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    min-height: 34px !important;
+    max-width: 34px !important;
+    max-height: 34px !important;
+    padding: 0 !important;
+  }
+
+  .header .mode svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .header .ltr {
+    padding: 4px 6px !important;
+    font-size: 11px !important;
+  }
+
+  .header .login-btn {
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+  }
+
+  .mobile-menu-button {
+    width: 34px;
+    height: 34px;
+    padding: 9px 7px;
+    gap: 4px;
+    margin-left: 0;
+  }
+
+  .header .navbar>a,
+  .header .navbar .nav-home-toggle,
+  .header .navbar .nav-services>.services-toggle-label {
+    padding-inline: 16px;
+  }
+
+  .header .navbar .home-dropdown a,
+  .header .navbar .services-dropdown a {
+    padding-inline-start: 34px;
+  }
+}
+
+@media (max-width: 350px) {
+  .header .logo {
+    font-size: 14px !important;
+  }
+
+  .header .logo img {
+    width: 28px !important;
+    height: 28px !important;
+    flex: 0 0 28px !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+  .header .mode,
+  .header #theme-toggle {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+    min-height: 28px !important;
+    max-width: 28px !important;
+    max-height: 28px !important;
+    padding: 0 !important;
+  }
+
+  .header .ltr,
+  .header .login-btn {
+    padding: 4px 6px !important;
+    font-size: 10px !important;
+  }
+
+  .mobile-menu-button {
+    width: 34px;
+    height: 34px;
+    padding: 9px 8px;
+  }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+  body .header {
+    padding-inline: 8% !important;
+  }
+
+  .footer-container {
+    max-width: none !important;
+    padding-inline: 8% !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+}
+
+/* DEVICE-SPECIFIC LOGIN / REGISTER MENU
+   Only Samsung Galaxy S8+ (360x740) and iPad Mini (768x1024) */
+
+.device-auth-menu {
+  display: none !important;
+}
+
+/* Samsung Galaxy S8+ */
+@media screen and (width: 360px) and (height: 740px) {
+  .header .login-btn {
+    display: none !important;
+  }
+
+  .header .navbar .device-auth-menu {
+    display: flex !important;
+  }
+}
+
+/* iPad Mini */
+@media screen and (width: 768px) and (height: 1024px) {
+  .header .login-btn {
+    display: none !important;
+  }
+
+  .header .navbar .device-auth-menu {
+    display: flex !important;
+  }
+}
+
+/* DEVICE-SPECIFIC HEADER LAYOUT
+   iPad Mini (768x1024) + Samsung Galaxy S8+ (360x740)*/
+@media screen and (width: 360px) and (height: 740px),
+screen and (width: 768px) and (height: 1024px) {
+
+  body .header {
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    min-height: 72px !important;
+    padding-inline: 14px !important;
+    gap: 8px !important;
+  }
+
+  /* Brand position:LTR = [Logo] SparkDen Service
+     RTL = SparkDen Service [Logo] */
+  body .header .logo {
+    order: 1 !important;
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    direction: ltr !important;
+    flex-direction: row !important;
+    gap: 7px !important;
+    white-space: nowrap !important;
+  }
+
+  body[dir="rtl"] .header .logo {
+    direction: rtl !important;
+    flex-direction: row !important;
+  }
+
+  body .header .logo>span {
+    direction: ltr !important;
+    display: inline-flex !important;
+    flex: 0 1 auto !important;
+    white-space: nowrap !important;
+  }
+
+  /* Keep the brand readable without allowing it to wrap. */
+  body .header .logo img {
+    width: 50px !important;
+    height: 50px !important;
+    flex: 0 0 50px !important;
+    padding: 3px !important;
+  }
+
+  body .header .title-one,
+  body .header .title-two {
+    font-size: 19px !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  /* Controls remain grouped together. */
+  body .header .header-right {
+    order: 2 !important;
+    margin: 0 !important;
+    margin-inline-start: auto !important;
+    flex: 0 0 auto !important;
+    gap: 6px !important;
+    min-width: 0 !important;
+  }
+
+  body .header .header-right .ltr {
+    order: 1 !important;
+  }
+
+  body .header .header-right .mode {
+    order: 2 !important;
+  }
+
+  /* Hamburger stays at the outer edge of the header. */
+  body .header .mobile-menu-button {
+    order: 3 !important;
+    flex: 0 0 38px !important;
+    width: 38px !important;
+    height: 38px !important;
+    margin: 0 !important;
+    padding: 9px 8px !important;
+  }
+
+  /* LOGIN remains inside the mobile menu. */
+  body .header .header-right .login-btn {
+    display: none !important;
+  }
+
+  /* The open menu starts below the 72px header. */
+  body .header #mobile-menu-toggle:checked~.navbar {
+    top: 72px !important;
+    height: calc(100vh - 72px) !important;
+    max-height: calc(100vh - 72px) !important;
+  }
+
+  /* Footer stays in its original RTL format:
+     SparkDen Service [Logo].
+     This change does not affect the header. */
+  body .footer .footer-logo-link,
+  body .footer .footer-brand .logo {
+    direction: ltr !important;
+    flex-direction: row !important;
+    white-space: nowrap !important;
+  }
+
+  body[dir="rtl"] .footer .footer-logo-link,
+  body[dir="rtl"] .footer .footer-brand .logo {
+    direction: ltr !important;
+    flex-direction: row-reverse !important;
+  }
+}
+
+/* FIXED HEADER — ONLY REQUESTED DEVICES
+   Samsung Galaxy S8+ (360x740)
+   iPad Mini (768x1024)*/
+@media screen and (width: 360px) and (height: 740px),
+screen and (width: 768px) and (height: 1024px) {
+  html body header.header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 72px !important;
+    min-height: 72px !important;
+    z-index: 99999 !important;
+  }
+
+  html body {
+    padding-top: 72px !important;
+    overflow-x: hidden !important;
+  }
+}

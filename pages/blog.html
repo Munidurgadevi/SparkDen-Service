@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | SparkDen Service</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/cXbNxxY8/logo.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/blog.css">
+    <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="../assets/css/rtl.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+            <span>
+                <span class="title-one">SparkDen</span>
+                <span class="title-two">Service</span>
+            </span>
+        </a>
+        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <label for="mobile-menu-toggle" class="mobile-menu-button"
+            aria-label="Open navigation menu"><span></span><span></span><span></span></label>
+        <nav class="navbar">
+            <div class="nav-home">
+                <input type="checkbox" id="home-menu-toggle" class="home-menu-toggle"
+                    aria-label="Toggle Home pages menu">
+                <label for="home-menu-toggle" class="nav-home-toggle">Home</label>
+                <div class="home-dropdown" role="menu" aria-label="Home pages">
+                    <a href="home1.html" role="menuitem">Home 1</a>
+                    <a href="home2.html" role="menuitem">Home 2</a>
+                </div>
+            </div>
+            <a href="about.html">About Us</a>
+            <div class="nav-services">
+                <input type="checkbox" id="services-toggle" class="services-toggle" aria-hidden="true">
+                <label for="services-toggle" class="services-toggle-label">Services</label>
+                <div class="services-dropdown" role="menu" aria-label="Services">
+                    <a href="services.html" role="menuitem">Services</a>
+                    <a href="Fan Repair.html" role="menuitem">Fan Repair</a>
+                    <a href="Refrigerator Repair.html" role="menuitem">Refrigerator Repair</a>
+                    <a href="Geyser Repair.html" role="menuitem">Geyser Repair</a>
+                    <a href="Iron Repair.html" role="menuitem">Iron Repair</a>
+                    <a href="appliance-services.html" role="menuitem">Other Services</a>
+                </div>
+            </div>
+            <a href="blog.html">Blogs</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html" class="device-auth-menu">Login</a>
+            <a href="register.html" class="device-auth-menu">Register</a>
+        </nav>
+        <div class="header-right">
+            <button class="mode" id="theme-toggle" aria-label="Toggle dark mode"><svg id="moon-icon"
+                    xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="currentColor"
+                    aria-hidden="true" class="bi bi-moon-fill">
+                    <path
+                        d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+                </svg>
+                <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"
+                    fill="currentColor" aria-hidden="true" class="bi bi-brightness-high-fill" style="display:none">
+                    <path
+                        d="M12 8a4 4 0 1 1-8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 16 8M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 1 1-.707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 .707 0" />
+                </svg></button>
+            <button class="ltr">LTR</button>
+            <a href="login.html" class="login-btn">LOGIN</a>
+        </div>
+    </header>
+    <!-- BLOG HERO -->
+    <section class="blog-hero blog-editorial-hero">
+        <div class="blog-editorial-inner">
+            <div class="blog-editorial-copy">
+                <div class="blog-editorial-title-wrap">
+                    <div>
+                        <p class="small-title">
+                            SPARKDEN KNOWLEDGE
+                        </p>
+                        <h1>
+                            SMARTER
+                            <span>HOME CARE</span>
+                        </h1>
+                        <p>
+                            Simple information and practical tips to help
+                            you understand, maintain and care for the
+                            electrical appliances used every day. From quick
+                            fixes and safety checks to energy-saving habits,
+                            our guides are written in plain language so you
+                            can keep every appliance running smoothly for longer.
+                        </p>
+                        <a href="#posts" class="blog-hero-cta">
+                            EXPLORE ARTICLES <span>↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-editorial-visual">
+                <div class="blog-visual-frame">
+                    <img src="https://i.ibb.co/Z6v2LN5K/kitchen-maintenance-education.jpg" alt="Home Appliance Care">
+                    <div class="blog-image-number">01</div>
+                </div>
+                <div class="blog-visual-note">
+                    <strong>READ * LEARN * CARE</strong>
+                    <span>Simple knowledge for everyday appliances.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG INTRO -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">
+                    FROM OUR BLOG
+                </span>
+                <h2>
+                    Helpful Ideas for Everyday Appliance Care
+                </h2>
+                <p>
+                    Learn simple ways to understand common appliance
+                    problems and take better care of your home equipment.
+                </p>
+            </div>
+            <!-- FEATURED BLOG -->
+            <article class="featured-post">
+                <div class="featured-image">
+                    <img src="https://i.ibb.co/4Rmh8pLk/appliance-care-routine.jpg" alt="Appliance Maintenance">
+                </div>
+                <div class="featured-content">
+                    <span class="post-category">
+                        APPLIANCE CARE
+                    </span>
+                    <h2>
+                        Small Maintenance Habits That Can
+                        Make a Difference
+                    </h2>
+                    <p class="post-date">
+                        September 05, 2026
+                    </p>
+                    <p>
+                        Everyday appliances work best when they
+                        receive regular attention. Simple habits
+                        such as keeping appliances clean, checking
+                        power connections and noticing unusual
+                        sounds can help identify problems early.
+                    </p>
+                    <a href="article.html" class="read-button">
+                        READ ARTICLE
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- BLOG POSTS -->
+    <section class="section posts-section" id="posts">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">
+                    LATEST ARTICLES
+                </span>
+                <h2>
+                    Tips Worth Knowing
+                </h2>
+                <p>
+                    A few practical ideas for keeping your
+                    household appliances in better condition.
+                </p>
+            </div>
+            <div class="posts-grid">
+                <!-- BLOG 1 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/xtY5TV96/ceiling-fan-wobble-1.jpg" alt="Fan Maintenance">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            FAN CARE
+                        </span>
+                        <h3>
+                            Why Is Your Fan Making
+                            Unusual Noises?
+                        </h3>
+                        <p class="post-date">
+                            September 03, 2026
+                        </p>
+                        <p>
+                            Unusual fan sounds can sometimes point to loose parts, motor concerns or other underlying
+                            issues. Learn what signs are worth paying close attention to<span class="more-text"> Loose
+                                blades, worn bearings or debris caught in the blade guard are common causes, and
+                                catching them early can prevent bigger motor damage down the line.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More →
+                        </a>
+                    </div>
+                </article>
+                <!-- BLOG 2 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/S7W3by3S/refrigerator-coil-cleaning.jpg" alt="Refrigerator Care">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            REFRIGERATOR CARE
+                        </span>
+                        <h3>
+                            Simple Ways to Look After
+                            Your Refrigerator
+                        </h3>
+                        <p class="post-date">
+                            September 01, 2026
+                        </p>
+                        <p>
+                            Your refrigerator runs throughout the
+                            day. A few basic care habits can help
+                            you notice cooling or electrical concerns
+                            before they become bigger problems.<span class="more-text"> Cleaning the condenser coils,
+                                checking the door seal and keeping the vents unblocked are small steps that go a long
+                                way in maintaining consistent cooling.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More &rarr;
+                        </a>
+                    </div>
+                </article>
+                <!-- BLOG 3 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/b8JFKdr/ironing-board-safe-setup.jpg" alt="Iron Safety">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            HOME SAFETY
+                        </span>
+                        <h3>
+                            Everyday Iron Safety Tips
+                            for Your Home
+                        </h3>
+                        <p class="post-date">
+                            August 29, 2026
+                        </p>
+                        <p>
+                            Proper handling and storage can help make everyday iron use safer and more convenient. Here
+                            are a few simple things worth remembering.<span class="more-text"> Always rest the iron on a
+                                heat-resistant surface, check the cord regularly for fraying and unplug it as soon as
+                                you're done ironing.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More &rarr;
+                        </a>
+                    </div>
+                </article>
+                <!-- BLOG 4 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/Z63GSKmL/cold-shower-concern.jpg" alt="Geyser Care">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            GEYSER CARE
+                        </span>
+                        <h3>
+                            What to Notice When Your
+                            Geyser Is Not Heating Properly
+                        </h3>
+                        <p class="post-date">
+                            August 26, 2026
+                        </p>
+                        <p>
+                            Inconsistent heating can have different
+                            causes. Understanding the basic warning
+                            signs can help you decide when professional
+                            attention may be needed.<span class="more-text"> A drop in water pressure, a tripped
+                                thermostat or sediment buildup inside the tank can all affect heating performance over
+                                time.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More &rarr;
+                        </a>
+                    </div>
+                </article>
+                <!-- BLOG 5 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/QvMwgyCj/electrical-safety-illustration.jpg"
+                            alt="Appliance Problems">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            TROUBLESHOOTING
+                        </span>
+                        <h3>
+                            When Should You Stop Using
+                            a Faulty Appliance?
+                        </h3>
+                        <p class="post-date">
+                            August 22, 2026
+                        </p>
+                        <p>
+                            Strange smells, sparks, damaged cords
+                            & repeated electrical issues should
+                            not be ignored. Learn when it is better
+                            to stop using an appliance and seek help.<span class="more-text"> If you notice a burning
+                                smell,visible sparks or the appliance shutting off unexpectedly, it's best to disconnect
+                                it immediately & have it inspected.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More &rarr;
+                        </a>
+                    </div>
+                </article>
+                <!-- BLOG 6 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://i.ibb.co/PGNRpRsQ/appliance-maintenance-flat.jpg" alt="Appliance Maintenance">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">
+                            MAINTENANCE
+                        </span>
+                        <h3>
+                            A Simple Home Appliance
+                            Maintenance Checklist
+                        </h3>
+                        <p class="post-date">
+                            August 18, 2026
+                        </p>
+                        <p>
+                            Regular checks can help you keep track of the overall condition of your appliances. Use this
+                            simple checklist as part of your household routine.<span class="more-text"> From wiping down
+                                surfaces to checking plug points and cords, a short weekly routine can extend the life
+                                of almost any appliance.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">
+                            Read More &rarr;
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- TIPS SECTION -->
+    <section class="tips-section">
+        <div class="container">
+            <div class="tips-layout">
+                <div class="tips-content">
+                    <span class="eyebrow">
+                        QUICK TIP
+                    </span>
+                    <h2>
+                        Pay Attention to the
+                        Small Warning Signs
+                    </h2>
+                    <p>
+                        Appliances often give small indications
+                        before a problem becomes more noticeable.
+                        Unusual sounds, burning smells, overheating,
+                        inconsistent performance or damaged wires
+                        should be taken seriously.
+                    </p>
+                    <p>
+                        If an appliance appears unsafe, switch it
+                        off and seek appropriate professional help
+                        instead of continuing to use it.
+                    </p>
+                </div>
+                <div class="tip-box">
+                    <img src="https://i.ibb.co/LXcxbSS9/Screenshot-2026-09-09-115747.png" alt="Appliance Safety Tip">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <span class="eyebrow">
+                NEED HELP?
+            </span>
+            <h2>
+                Have an Appliance Problem?
+            </h2>
+            <p>
+                If you are unsure about an appliance issue,
+                you can request a service and get the problem
+                checked.
+            </p>
+            <a href="booking.html" class="cta-button">
+                BOOK A SERVICE
+            </a>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column footer-brand">
+                <a href="index.html" class="logo footer-logo-link">
+                    <img src="https://i.ibb.co/cXbNxxY8/logo.png" alt="SparkDen Service">
+                    <span>
+                        <span class="title-one">SparkDen</span>
+                        <span class="title-two">Service</span>
+                    </span>
+                </a>
+                <p>
+                    Fast and reliable electrical appliance repair
+                    services for your everyday home needs.
+                </p>
+                <div class="footer-social" aria-label="Social media links">
+                    <a href="#" aria-label="Instagram" title="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook" title="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter X" title="Twitter X">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter-x" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="WhatsApp" title="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-whatsapp" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="home1.html">Home</a>
+                <a href="about.html">about</a>
+                <a href="services.html">Services</a>
+                <a href="blog.html">blogs</a>
+                <a href="contact.html">contact us</a>
+            </div>
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <a href="Fan%20Repair.html">Fan Repair</a>
+                <a href="Refrigerator%20Repair.html">Refrigerator Repair</a>
+                <a href="Iron%20Repair.html">Iron Repair</a>
+                <a href="Geyser%20Repair.html">Geyser Repair</a>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>
+                    +91 98765 43210
+                </p>
+                <p>
+                    sparkden@example.com
+                </p>
+                <p>
+                    Hyderabad, Telangana, India
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 SparkDen Service . All Rights Reserved.
+            </p>
+            <p>
+                SparkDen Service Appliance
+            </p>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+    <script>
+        document.querySelectorAll('.read-more-btn').forEach(function (btn) {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+                var moreText = this.closest('.post-content').querySelector('.more-text');
+                if (!moreText) return;
+                var isOpen = moreText.classList.toggle('show');
+                this.innerHTML = isOpen ? 'Read Less &uarr;' : 'Read More &rarr;';
+            });
+        });
+    </script>
+</body>
+</html>
