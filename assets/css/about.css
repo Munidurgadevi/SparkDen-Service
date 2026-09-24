@@ -368,14 +368,6 @@ body {
     width: 27px;
     background: #fff;
 }
-@keyframes orbitSpin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 .section {
     width: 100%;
     padding: 80px 30px;
