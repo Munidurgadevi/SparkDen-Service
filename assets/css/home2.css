@@ -65,11 +65,6 @@
   }
 }
 
-.detail-media-backdrop {
-  position: absolute;
-  inset: 0;
-  background: var(--footer-bg);
-}
 
 .faq-heading {
   width: 100%;
